@@ -1,0 +1,45 @@
+ul.pagination {
+  padding: 2rem 0 6rem 0;
+  li {
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    border-radius: 2px;
+    transform: skewX(-8deg);
+    background-color: $purple;
+    min-width: 3rem;
+    transition: transform .15s ease-in-out;
+    perspective: 3rem;
+
+    a {
+      padding: 0 1rem;
+      color: black;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &.previous, &.next {
+      background-color: $yellow;
+    }
+
+    &:hover {
+      // transform-style: preserve-3d;
+      transform: skewX(-8deg) scale(1.3);
+    }
+
+    &.active {
+      background-color: white;
+      box-shadow: inset 0 0 0 4px $yellow;
+    }
+
+    &.disabled {
+      opacity: .4;
+      a {
+        cursor: not-allowed;
+      }
+    }
+  }
+}

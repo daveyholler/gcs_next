@@ -1,0 +1,49 @@
+@mixin gradient1 {
+  background-image: linear-gradient(135deg, #FA61CC 0%, #1C2EF7 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient2 {
+  background-image: linear-gradient(135deg, #FA8061 0%, #21B248 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient3 {
+  background-image: linear-gradient(135deg, #1CF7E6 0%, #FF0000 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient4 {
+  background-image: linear-gradient(180deg, #FFA765 0%, #04609F 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient5 {
+  background-image: linear-gradient(135deg, #46D26D 0%, #C4458F 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient1_reverse {
+  background-image: linear-gradient(135deg, #1C2EF7 0%, #FA61CC 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient2_reverse {
+  background-image: linear-gradient(135deg, #21B248 0%, #FA8061 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient3_reverse {
+  background-image: linear-gradient(135deg, #FF0000 0%, #1CF7E6 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient4_reverse {
+  background-image: linear-gradient(180deg, #04609F 0%, #FFA765 100%);
+  mix-blend-mode: multiply;
+}
+
+@mixin gradient5_reverse {
+  background-image: linear-gradient(135deg, #C4458F 0%, #46D26D 100%);
+  mix-blend-mode: multiply;
+}

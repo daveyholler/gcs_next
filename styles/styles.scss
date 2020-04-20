@@ -1,0 +1,41 @@
+// We can import bulma into the project using Sass.
+@import "../node_modules/bulma/bulma.sass";
+@import 'gradients';
+@import 'listItems';
+@import 'pagination';
+
+body {
+  background-color: #000;
+
+  .title {
+    color: white;
+  }
+}
+
+.hero {
+  height: 500px;
+  max-height: 50vh;
+  background-image: url('/static/hero.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    color: white;
+    font-size: 64px;
+  }
+}
+
+.title {
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.card {
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}

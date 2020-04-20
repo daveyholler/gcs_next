@@ -1,0 +1,24 @@
+{
+  "name": "next-with-bulma",
+  "version": "1.0.0",
+  "description": "Trying out Next.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "now-build": "next build"
+  },
+  "author": "Jake Varness",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.19.2",
+    "bulma": "^0.7.5",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^8.1.0",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-paginate": "^6.3.2"
+  }
+}
